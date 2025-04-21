@@ -1,0 +1,253 @@
+{
+  "HomePage": {
+    "intro": "Hi, I'm Sahil",
+    "location": "Based in Kathmandu, Nepal 🇳🇵",
+    "location_type": "Remote & Onsite",
+    "resume": "Creative and motivated Web Developer focused on frontend development using React and Tailwind CSS. Currently learning backend with Django and exploring full-stack capabilities. Passionate about 3D web experiences and cybersecurity.",
+    "skills": {
+      "title": "Skills",
+      "sub_title": "My professional skills."
+    },
+    "services": {
+      "title": "Services",
+      "sub_title": "I build modern, responsive websites and digital experiences for creators, startups, and students who want to grow in tech.",
+      "cta": {
+        "title": "Let's work together!",
+        "sub_title": "I’m open for freelance and collaborative projects. Feel free to email me or drop a message.",
+        "button": "Contact Me"
+      }
+    }
+  },
+  "AboutPage": {
+    "title": "About",
+    "description": "A short story of me",
+    "resume": {
+      "paragraf_1": "Hey! I’m Sahil, currently pursuing IT at MVIC and planning to improve my skills. I'm deeply into web development and cybersecurity, building projects that combine creative design with functionality.",
+      "paragraf_2": "My stack mainly involves React, Tailwind CSS, and recently, Django for backend. I’m exploring full-stack web dev, integrating 3D components with React Three Fiber, and I also experiment with Rust and Next.js for fun and future-proofing.",
+      "paragraf_3": "I believe in learning by building. I love collaborating, whether it's with my team on FrameIt or contributing to content that helps Nepali teens grow in tech. Let’s create something awesome together!"
+    },
+    "career": {
+      "title": "Career",
+      "sub_title": "My professional career journey.",
+      "careers": {  
+          "career_0": {
+            "position": "Software Engineering Intern",
+            "company": "TechNova Solutions",
+            "logo": "/images/careers/technova.jpeg",
+            "location": "Kathmandu, Nepal 🇳🇵",
+            "location_type": "Hybrid",
+            "type": "Internship",
+            "start_date": "2023-06",
+            "end_date": "2023-09",
+            "industry": "technology",
+            "link": "https://technova.example.com",
+            "responsibilities": {
+              "responsibility_1": "Built and maintained frontend features using React and Tailwind CSS.",
+              "responsibility_2": "Assisted in the migration of legacy code to a modern JavaScript stack.",
+              "responsibility_3": "Collaborated with the design team to implement responsive UI/UX.",
+              "responsibility_4": "Participated in daily stand-ups and sprint planning using Agile methodology."
+            }
+          },
+          "career_1": {
+            "position": "Junior Backend Developer",
+            "company": "DevCraft Labs",
+            "logo": "/images/careers/devcraft-labs.png",
+            "location": "Pokhara, Nepal 🇳🇵",
+            "location_type": "Remote",
+            "type": "Part-time",
+            "start_date": "2024-02",
+            "end_date": null,
+            "industry": "software",
+            "link": "https://devcraftlabs.example.com",
+            "responsibilities": {
+              "responsibility_1": "Developing RESTful APIs using Django and Django REST Framework.",
+              "responsibility_2": "Integrated PostgreSQL and Redis for database and caching solutions.",
+              "responsibility_3": "Wrote unit tests and participated in code reviews to ensure high-quality code.",
+              "responsibility_4": "Worked in a fast-paced team to deliver backend services for a real-time app."
+            }
+          },
+          "career_2": {
+            "position": "Freelance Web Developer",
+            "company": "Self-Employed",
+            "logo": "/images/careers/freelance.png",
+            "location": "Remote 🌍",
+            "location_type": "Remote",
+            "type": "Freelance",
+            "start_date": "2023-01",
+            "end_date": "2023-12",
+            "industry": "freelance",
+            "link": "https://portfolio.example.com",
+            "responsibilities": {
+              "responsibility_1": "Designed and launched custom websites for small businesses using React and Firebase.",
+              "responsibility_2": "Provided SEO optimization and performance enhancements.",
+              "responsibility_3": "Maintained ongoing client relationships and provided tech support.",
+              "responsibility_4": "Managed all aspects of the project lifecycle from planning to deployment."
+            }
+          }
+        }
+        
+    },
+    "education": {
+      "title": "Education",
+      "sub_title": "My educational journey.",
+      "school": "MVIC",
+      "major": "Information Technology",
+      "logo": "",
+      "location": "Kathmandu, Nepal 🇳🇵",
+      "degree": "Bachelor in IT (BIT)",
+      "start_year": 2024,
+      "end_year": 2028,
+      "link": ""
+    },
+    "resume_download_button": "Download Resume",
+    "portfolio_download_button": "Download Portfolio"
+  },
+  "AchievementsPage": {
+    "title": "Achievements",
+    "description": "A collection of certificates and badges I’ve earned from various tech platforms and competitions.",
+    "error": "An error occurred on the server.",
+    "no_data": "No data available.",
+    "show_credential": "Show Credentials"
+  },
+  "ProjectsPage": {
+    "title": "Projects",
+    "description": "A showcase of projects I’ve built—from 3D web to React apps and digital marketplaces like FrameIt.",
+    "view_project": "View Project",
+    "tech_stack": "Tech Stack",
+    "back_button": "Back",
+    "source_code_text": "Source Code",
+    "live_demo_text": "Live Demo",
+    "error": "An error occurred on the server.",
+    "no_data": "No data available."
+  },
+  "DashboardPage": {
+    "title": "Dashboard",
+    "description": "A personal dashboard showing my coding stats, GitHub contributions, typing speed, and more.",
+    "error": "An error occurred on the server.",
+    "github": {
+      "title": "GitHub Contributions",
+      "sub_title": "My recent activity and contributions.",
+      "title_total_contribution": "Total",
+      "title_total_this_week_contributino": "This week",
+      "title_best_contribution": "Best Day",
+      "title_average_contribution": "Average",
+      "title_less_contribution": "Least Active",
+      "title_more_contribution": "Most Active",
+      "unit": "day"
+    },
+    "wakatime": {
+      "title": "Weekly Coding Stats",
+      "sub_title": "Based on WakaTime tracking.",
+      "last_update": "Last updated",
+      "start_date": "Start Date",
+      "end_date": "End Date",
+      "daily_average": "Daily Coding Average",
+      "daily_total": "Total Time This Week",
+      "best_day": "Best Day",
+      "all_time_since_today": "All Time Stats",
+      "languages": "Languages Used"
+    },
+    "codewars": {
+      "title": "Codewars",
+      "sub_title": "Challenge progress on Codewars.",
+      "title_rank": "Rank",
+      "title_honor": "Honor",
+      "title_completed": "Challenges Completed",
+      "title_leaderboard": "Leaderboard",
+      "title_clan": "Clan",
+      "title_skills": "Skills"
+    },
+    "monkeytype": {
+      "title": "Typing Stats",
+      "sub_title": "Typing practice via Monkeytype.",
+      "joined": "Joined",
+      "current_streak": "Current streak",
+      "unit_days": "days",
+      "title_test_started": "Tests Started",
+      "title_test_completed": "Tests Completed",
+      "title_time_typing": "Total Typing Time",
+      "title_leaderboard": "All-Time Leaderboard",
+      "unit_seconds": "Seconds",
+      "unit_time": "Time",
+      "unit_words": "Words",
+      "top": "Top",
+      "days_ago": "days ago",
+      "xp_until_next_level": "XP to Next Level",
+      "total_xp": "Total XP"
+    }
+  },
+  "ChatRoomPage": {
+    "title": "Chat Room",
+    "description": "Got feedback or want to say hi? Drop a message!",
+    "placeholder": "Type a message...",
+    "sign_in": {
+      "title": "Sign in to chat. No worries, your data’s safe!",
+      "label": "Sign in with",
+      "signed_label": "Signed in as",
+      "sign_out_label": "Sign out"
+    },
+    "widget": {
+      "title": "Chat Room",
+      "tooltip_title": "Open Chat",
+      "tooltip_minimize": "Minimize",
+      "tooltip_signout": "Sign out"
+    }
+  },
+  "ContactPage": {
+    "title": "Contact",
+    "description": "Let’s get in touch",
+    "social_media": {
+      "title": "Find me on",
+      "gmail": {
+        "title": "Say Hello 👋",
+        "description": "Drop an email for freelance or collaboration."
+      },
+      "instagram": {
+        "title": "Follow Me",
+        "description": "Tips & stories for Nepali teens in tech."
+      },
+      "linkedin": {
+        "title": "Connect",
+        "description": "Explore my journey and experience."
+      },
+      "tiktok": {
+        "title": "Fun & Learning",
+        "description": "Tech meets entertainment here."
+      },
+      "github": {
+        "title": "My Codebase",
+        "description": "Open source projects and experiments."
+      }
+    },
+    "form": {
+      "title": "Or just send a message",
+      "input_name": "Name",
+      "input_email": "Email",
+      "input_message": "Message",
+      "button": "Send"
+    }
+  },
+  "Footer": {
+    "hire": "Let’s build something together.",
+    "copyright_1": "COPYRIGHT © ",
+    "copyright_2": "Sahil. All rights reserved."
+  },
+  "LocaleSwitcher": {
+    "en": "🇺🇸",
+    "np": "🇳🇵",
+    "label": "Language"
+  },
+  "Navigation": {
+    "Home": "Home",
+    "About": "About",
+    "Achievements": "Achievements",
+    "Projects": "Projects",
+    "Dashboard": "Dashboard",
+    "Chat Room": "Chat Room",
+    "Contact": "Contact"
+  },
+  "NotFoundPage": {
+    "title": "Page not found",
+    "button": "Take me home"
+  }
+}
