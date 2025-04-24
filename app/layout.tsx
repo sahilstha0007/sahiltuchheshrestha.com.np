@@ -13,11 +13,14 @@ import NextAuthProvider from "@/SessionProvider";
 import { METADATA } from "@/common/constants/metadata";
 import { onestSans } from "@/common/styles/fonts";
 
+// Define a default domain for fallback
+const defaultDomain = "http://localhost:3000";
+
 export const metadata: Metadata = {
   metadataBase: new URL(
     process.env.NODE_ENV === "development"
-      ? "http://localhost:3000"
-      : process.env.DOMAIN || "",
+      ? defaultDomain
+      : process.env.DOMAIN || defaultDomain, // Use fallback here
   ),
   description: METADATA.description,
   keywords: METADATA.keyword,
