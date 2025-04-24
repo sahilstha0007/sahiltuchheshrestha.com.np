@@ -50,18 +50,18 @@ const RootLayout = async ({
       <Script
         defer
         src="https://cloud.umami.is/script.js"
-        data-website-id="8e2c9f27-a12b-48ca-8130-808ebe377aca"
+        data-website-id="a6006737-aaf9-46ed-ba31-96628f5d9931"
       ></Script>
       <body className={onestSans.className}>
         <NextTopLoader
-          color="#05b6d3"
+          color="#FFD700"
           initialPosition={0.08}
-          crawlSpeed={200}
+          crawlSpeed={150}
           height={3}
           crawl={true}
           // showSpinner={true}
           easing="ease"
-          speed={200}
+          speed={150}
           shadow="0 0 10px #05b6d3,0 0 5px #45c6c0"
         />
         <NextIntlClientProvider messages={messages}>

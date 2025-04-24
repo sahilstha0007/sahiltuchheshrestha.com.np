@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
 
-import ChatButton from "../../../modules/chat/components/ChatButton";
+// import ChatButton from "../../../modules/chat/components/ChatButton";
 
 import Sidebar from "./sidebar";
 
@@ -36,7 +36,7 @@ const Layouts = ({ children }: LayoutsProps) => {
         </main>
       </div>
       <Notif />
-      {isShowChatButton && <ChatButton />}
+      {/* {isShowChatButton && <ChatButton />} */}
     </div>
   );
 }

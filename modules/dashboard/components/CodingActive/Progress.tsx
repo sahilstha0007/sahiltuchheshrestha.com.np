@@ -13,7 +13,7 @@ const Progress = ({ data, className }: ProgressProps) => {
     initial: { width: 0 },
     animate: {
       width: `${percent}%`,
-      transition: { delay: 0.8 },
+      transition: { delay: 0.2 },
     },
   };
 

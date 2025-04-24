@@ -7,8 +7,7 @@ import { useState } from "react";
 import { BsBuildings as CompanyIcon } from "react-icons/bs";
 import { HiChevronRight as ChevronIcon } from "react-icons/hi";
 import { AnimatePresence, motion } from "framer-motion";
-import { useLocale } from "next-intl";
-import { useTranslations } from "use-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { differenceInMonths, differenceInYears, format, isValid } from "date-fns";
 
 import Card from "@/common/components/elements/Card";
@@ -29,8 +28,15 @@ const CareerCard = ({
 }: CareerProps) => {
   const [isShowResponsibility, setIsShowResponsibility] = useState(false);
 
-  const t = useTranslations(`AboutPage.career.careers.career_${indexCareer}`);
-  const locale = useLocale();
+  let t, locale;
+  try {
+    t = useTranslations(`AboutPage.career.careers.career_${indexCareer}`);
+    locale = useLocale();
+  } catch (error) {
+    console.error("No intl context found. Ensure NextIntlProvider is configured.");
+    t = (key: string) => key; // Fallback translation function
+    locale = "en"; // Default locale
+  }
 
   const parseDate = (date: string | null) => {
     const parsedDate = date ? new Date(date) : null;
