@@ -69,9 +69,9 @@ const CareerCard = ({
     locale == "en" ? "responsibilities" : "tanggung jawab";
 
   return (
-    <Card className="flex items-start gap-5 px-6 py-4">
+    <Card className="flex  items-center gap-5 px-6 py-4">
       {logo ? (
-        <Image width={70} height={70} src={logo} alt={company} />
+        <Image width={70} height={70} src={logo}  objectFit="contain" alt={company} />
       ) : (
         <CompanyIcon size={65} />
       )}

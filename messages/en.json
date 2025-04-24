@@ -31,57 +31,19 @@
       "sub_title": "My professional career journey.",
       "careers": {  
           "career_0": {
-            "position": "Software Engineering Intern",
-            "company": "TechNova Solutions",
-            "logo": "/images/careers/technova.jpeg",
-            "location": "Kathmandu, Nepal 🇳🇵",
-            "location_type": "Hybrid",
-            "type": "Internship",
-            "start_date": "2023-06",
-            "end_date": "2023-09",
-            "industry": "technology",
-            "link": "https://technova.example.com",
-            "responsibilities": {
-              "responsibility_1": "Built and maintained frontend features using React and Tailwind CSS.",
-              "responsibility_2": "Assisted in the migration of legacy code to a modern JavaScript stack.",
-              "responsibility_3": "Collaborated with the design team to implement responsive UI/UX.",
-              "responsibility_4": "Participated in daily stand-ups and sprint planning using Agile methodology."
-            }
-          },
-          "career_1": {
-            "position": "Junior Backend Developer",
-            "company": "DevCraft Labs",
-            "logo": "/images/careers/devcraft-labs.png",
-            "location": "Pokhara, Nepal 🇳🇵",
-            "location_type": "Remote",
+            "position": "Web Developer",
+            "company": "Mid Valley International Collage",
+            "logo": "/images/education/mvic.png",
+            "location": "Kathmandu, Nepal",
+            "location_type": "Onsite",
             "type": "Part-time",
-            "start_date": "2024-02",
+            "start_date": "2024-12",
             "end_date": null,
-            "industry": "software",
-            "link": "https://devcraftlabs.example.com",
+            "industry": "school",
+            "link": "https://midvalley.edu.np/",
             "responsibilities": {
-              "responsibility_1": "Developing RESTful APIs using Django and Django REST Framework.",
-              "responsibility_2": "Integrated PostgreSQL and Redis for database and caching solutions.",
-              "responsibility_3": "Wrote unit tests and participated in code reviews to ensure high-quality code.",
-              "responsibility_4": "Worked in a fast-paced team to deliver backend services for a real-time app."
-            }
-          },
-          "career_2": {
-            "position": "Freelance Web Developer",
-            "company": "Self-Employed",
-            "logo": "/images/careers/freelance.png",
-            "location": "Remote 🌍",
-            "location_type": "Remote",
-            "type": "Freelance",
-            "start_date": "2023-01",
-            "end_date": "2023-12",
-            "industry": "freelance",
-            "link": "https://portfolio.example.com",
-            "responsibilities": {
-              "responsibility_1": "Designed and launched custom websites for small businesses using React and Firebase.",
-              "responsibility_2": "Provided SEO optimization and performance enhancements.",
-              "responsibility_3": "Maintained ongoing client relationships and provided tech support.",
-              "responsibility_4": "Managed all aspects of the project lifecycle from planning to deployment."
+              "responsibility_1": "Developed and maintained the official website for Mid Valley International College.",
+              "responsibility_2": "Collaborated with the design team to implement user-friendly interfaces."
             }
           }
         }
