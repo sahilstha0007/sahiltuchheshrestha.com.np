@@ -15,13 +15,13 @@ const NotFound = () => {
         404
       </h1>
       <p className="text-sm text-neutral-600 dark:text-neutral-400">
-        {t("title")}
+        {t("title", { default: "Page not found" })}
       </p>
       <Link
         href="/"
         className="rounded-full border border-neutral-700 px-4 py-2 text-sm hover:bg-neutral-700 hover:text-neutral-300 dark:border-neutral-300 hover:dark:bg-neutral-300 hover:dark:text-neutral-700"
       >
-        {t("button")}
+        {t("button", { default: "Go to Home" })}
       </Link>
     </Container>
   );
