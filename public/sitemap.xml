@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://sahiltuchheshrestha.com.np/</loc>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://sahiltuchheshrestha.com.np/sitemap-0.xml</loc>
     <lastmod>2025-04-27T00:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <!-- Add more URLs for your site pages -->
-  <url>
-    <loc>https://sahiltuchheshrestha.com.np/about</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://sahiltuchheshrestha.com.np/sitemap-1.xml</loc>
     <lastmod>2025-04-27T00:00:00.000Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-</urlset>
+  </sitemap>
+</sitemapindex>
