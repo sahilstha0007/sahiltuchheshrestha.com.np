@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://sahiltuchheshrestha.com.np
+
+# Sitemaps
+Sitemap: https://sahiltuchheshrestha.com.np/sitemap.xml
