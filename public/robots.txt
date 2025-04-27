@@ -1,9 +1,12 @@
 # *
 User-agent: *
 Allow: /
+Crawl-delay: 1
 
 # Host
 Host: https://sahiltuchheshrestha.com.np
 
 # Sitemaps
 Sitemap: https://sahiltuchheshrestha.com.np/sitemap.xml
+Sitemap: https://sahiltuchheshrestha.com.np/sitemap-0.xml
+Sitemap: https://sahiltuchheshrestha.com.np/sitemap-1.xml
