@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="2.0" 
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                xmlns:sitemap="http://www.sitemaps.org/schemas/sitemap/0.9">
+                xmlns:sitemap="http://www.sitemaps.org/schemas/sitemap/0.9"
+                xmlns:url="http://www.sitemaps.org/schemas/sitemap/0.9">
   <xsl:output method="html" version="1.0" encoding="UTF-8" indent="yes"/>
   <xsl:template match="/">
     <html xmlns="http://www.w3.org/1999/xhtml">
@@ -58,29 +59,64 @@
       </head>
       <body>
         <div class="container">
-          <h1>XML Sitemap Index</h1>
-          <p>This is a sitemap index for Sahil Tuchchhe Shrestha's website.</p>
-          <table>
-            <tr>
-              <th>URL</th>
-              <th>Last Modified</th>
-            </tr>
-            <xsl:for-each select="sitemap:sitemapindex/sitemap:sitemap">
+          <xsl:if test="count(/sitemap:sitemapindex/sitemap:sitemap) &gt; 0">
+            <h1>XML Sitemap Index</h1>
+            <p>This is a sitemap index for Sahil Tuchchhe Shrestha's website.</p>
+            <table>
               <tr>
-                <td>
-                  <a>
-                    <xsl:attribute name="href">
-                      <xsl:value-of select="sitemap:loc"/>
-                    </xsl:attribute>
-                    <xsl:value-of select="sitemap:loc"/>
-                  </a>
-                </td>
-                <td>
-                  <xsl:value-of select="sitemap:lastmod"/>
-                </td>
+                <th>URL</th>
+                <th>Last Modified</th>
               </tr>
-            </xsl:for-each>
-          </table>
+              <xsl:for-each select="/sitemap:sitemapindex/sitemap:sitemap">
+                <tr>
+                  <td>
+                    <a>
+                      <xsl:attribute name="href">
+                        <xsl:value-of select="sitemap:loc"/>
+                      </xsl:attribute>
+                      <xsl:value-of select="sitemap:loc"/>
+                    </a>
+                  </td>
+                  <td>
+                    <xsl:value-of select="sitemap:lastmod"/>
+                  </td>
+                </tr>
+              </xsl:for-each>
+            </table>
+          </xsl:if>
+          <xsl:if test="count(/url:urlset/url:url) &gt; 0">
+            <h1>XML Sitemap</h1>
+            <p>This is the sitemap for Sahil Tuchchhe Shrestha's website.</p>
+            <table>
+              <tr>
+                <th>URL</th>
+                <th>Priority</th>
+                <th>Change Frequency</th>
+                <th>Last Modified</th>
+              </tr>
+              <xsl:for-each select="/url:urlset/url:url">
+                <tr>
+                  <td>
+                    <a>
+                      <xsl:attribute name="href">
+                        <xsl:value-of select="url:loc"/>
+                      </xsl:attribute>
+                      <xsl:value-of select="url:loc"/>
+                    </a>
+                  </td>
+                  <td>
+                    <xsl:value-of select="url:priority"/>
+                  </td>
+                  <td>
+                    <xsl:value-of select="url:changefreq"/>
+                  </td>
+                  <td>
+                    <xsl:value-of select="url:lastmod"/>
+                  </td>
+                </tr>
+              </xsl:for-each>
+            </table>
+          </xsl:if>
         </div>
       </body>
     </html>
